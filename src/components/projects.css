@@ -34,12 +34,14 @@
   margin-top: 10px;
   padding-right: 10px;
   color: #ffffff;
+  text-decoration: underline;
 }
 
 .download-resume {
   font-size: 15px;
   margin-top: 10px;
   color: #ffffff;
+  text-decoration: underline;
 }
 
 .project-item {
