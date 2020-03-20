@@ -4,10 +4,11 @@ import "./index.css";
 import App from "./App";
 import Projects from "./components/projects";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { browserHistory } from "react-router";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <Router>
+  <Router history={browserHistory}>
     <Switch>
       <Route exact path="/" component={App} />
       <Route exact path="/projects" component={Projects} />
