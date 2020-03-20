@@ -9,7 +9,7 @@ function Projects(props) {
       <div className="container">
         <header className="container-header">
           <h2 className="page-heading"> Previous Projects </h2>
-          <NavLink className="navlink-home" to="/">
+          <NavLink className="navlink-home" to="/Portfolio">
             {" "}
             Home{" "}
           </NavLink>

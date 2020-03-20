@@ -10,7 +10,7 @@ import * as serviceWorker from "./serviceWorker";
 ReactDOM.render(
   <Router history={browserHistory}>
     <Switch>
-      <Route exact path="/" component={App} />
+      <Route exact path="/Portfolio" component={App} />
       <Route exact path="/projects" component={Projects} />
     </Switch>
   </Router>,
