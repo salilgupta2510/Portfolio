@@ -1,29 +1,34 @@
-import React from 'react';
-import Typical from 'react-typical';
-import { Button } from 'react-bootstrap';
-import Particles from 'react-particles-js';
-import './App.css';
+import React from "react";
+import Typical from "react-typical";
+import { NavLink } from "react-router-dom";
+import Particles from "react-particles-js";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <section id="home" className="main-home parallax-section">
         <div className="overlay"></div>
-        <Particles
-          className="background"
-          params={styleParams} />
+        <Particles className="background" params={styleParams} />
         <div className="name-container">
           <h2 className="name-heading">Hi, I'm Salil Gupta</h2>
-          <div class="col-md-12 col-sm-12">
+          <div className="col-md-12 col-sm-12">
             <Typical
               className="name-heading"
-              steps={[`I'm a User Interface Developer`, 1000, `I develop Web & Mobile applications`, 1000]}
+              steps={[
+                `I'm a User Interface Developer`,
+                1000,
+                `I develop Web & Mobile applications`,
+                1000
+              ]}
               loop={Infinity}
               wrapper="p"
             />
           </div>
-          <div class="col-md-12 col-sm-12">
-            <Button variant="outline-secondary">Know More &gt;</Button>
+          <div className="col-md-12 col-sm-12">
+            <NavLink className="nav-link" exact to="/projects">
+              Know More &gt;
+            </NavLink>
           </div>
         </div>
       </section>
@@ -34,20 +39,20 @@ function App() {
 export default App;
 
 const styleParams = {
-  "particles": {
-    "number": {
-      "value": 100
+  particles: {
+    number: {
+      value: 100
     },
-    "size": {
-      "value": 5
+    size: {
+      value: 5
     }
   },
-  "interactivity": {
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "repulse"
+  interactivity: {
+    events: {
+      onhover: {
+        enable: true,
+        mode: "repulse"
       }
     }
   }
-}
+};
