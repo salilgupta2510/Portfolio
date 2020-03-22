@@ -2,9 +2,21 @@ import React from "react";
 import Typical from "react-typical";
 import { NavLink } from "react-router-dom";
 import Particles from "react-particles-js";
+import {
+  TwitterIcon,
+  TwitterShareButton,
+  WhatsappIcon,
+  WhatsappShareButton,
+  FacebookShareButton,
+  FacebookIcon,
+  EmailShareButton,
+  EmailIcon
+} from "react-share";
 import "./App.css";
 
 function App() {
+  const shareUrl = "https://salilgupta2510.github.io/Portfolio";
+  const title = "SalilGupta";
   return (
     <div className="App">
       <section id="home" className="main-home parallax-section">
@@ -29,6 +41,36 @@ function App() {
             <NavLink className="nav-link" exact to="/projects">
               Know More &gt;
             </NavLink>
+          </div>
+          <div className="share-button-container">
+            <FacebookShareButton
+              url={shareUrl}
+              quote={title}
+              className="Demo__some-network__share-button added-style-share-button"
+            >
+              <FacebookIcon size={32} round />
+            </FacebookShareButton>
+            <WhatsappShareButton
+              url={shareUrl}
+              quote={title}
+              className="Demo__some-network__share-button added-style-share-button"
+            >
+              <WhatsappIcon size={32} round={true} />
+            </WhatsappShareButton>
+            <TwitterShareButton
+              url={shareUrl}
+              quote={title}
+              className="Demo__some-network__share-button added-style-share-button"
+            >
+              <TwitterIcon size={32} round={true} />
+            </TwitterShareButton>
+            <EmailShareButton
+              url={shareUrl}
+              quote={title}
+              className="Demo__some-network__share-button added-style-share-button"
+            >
+              <EmailIcon size={32} round={true} />
+            </EmailShareButton>
           </div>
         </div>
       </section>

@@ -100,3 +100,7 @@
 .nav-link:hover {
   background-color: #23527c;
 }
+
+.added-style-share-button {
+  margin: 10px !important;
+}
