@@ -38,7 +38,7 @@ function App() {
             />
           </div>
           <div className="col-md-12 col-sm-12">
-            <NavLink className="nav-link" exact to="/projects">
+            <NavLink className="nav-link" exact to="/Projects">
               Know More &gt;
             </NavLink>
           </div>

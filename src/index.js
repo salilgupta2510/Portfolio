@@ -11,7 +11,7 @@ ReactDOM.render(
   <Router history={browserHistory}>
     <Switch>
       <Route exact path="/Portfolio" component={App} />
-      <Route exact path="/projects" component={Projects} />
+      <Route path="/Projects" component={Projects} />
     </Switch>
   </Router>,
   document.getElementById("root")
