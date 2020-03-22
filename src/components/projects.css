@@ -20,7 +20,7 @@
 
 .project-container {
   overflow-y: scroll;
-  height: 65%;
+  height: 80vh;
 }
 
 .container-header {
