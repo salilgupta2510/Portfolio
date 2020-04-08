@@ -10,7 +10,7 @@ import {
   FacebookShareButton,
   FacebookIcon,
   EmailShareButton,
-  EmailIcon
+  EmailIcon,
 } from "react-share";
 import "./App.css";
 
@@ -31,12 +31,14 @@ function App() {
                 `I'm a User Interface Developer`,
                 1000,
                 `I develop Web & Mobile applications`,
-                1000
+                1000,
               ]}
               loop={Infinity}
               wrapper="p"
             />
           </div>
+        </div>
+        <div className={"additional"}>
           <div className="col-md-12 col-sm-12">
             <NavLink className="nav-link" exact to="/Projects">
               Know More &gt;
@@ -83,18 +85,18 @@ export default App;
 const styleParams = {
   particles: {
     number: {
-      value: 100
+      value: 100,
     },
     size: {
-      value: 5
-    }
+      value: 5,
+    },
   },
   interactivity: {
     events: {
       onhover: {
         enable: true,
-        mode: "repulse"
-      }
-    }
-  }
+        mode: "repulse",
+      },
+    },
+  },
 };
