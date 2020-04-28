@@ -21,6 +21,15 @@ function Projects(props) {
         <div className="project-container">
           <h3 className="project-type-name"> Mobile App (Android/iOS) </h3>
           <div className="type-react-native">
+          <div className="col-md-6 project-item">
+              <h3 className="project-heading"> COVID19 Tracker APP</h3>
+              <p className="project-details">
+                This app is developed using React Native library for iOS &
+                Android platform. This app features Geo-Fencing, Contact-Tracing, Symptoms assessments.
+                It is being used by on of the country in Africa. Due to signed NDA, no app identifying 
+                info available. TechStack: React-Native.
+              </p>
+            </div>
             <div className="col-md-6 project-item">
               <h3 className="project-heading"> Scan by QR </h3>
               <p className="project-details">

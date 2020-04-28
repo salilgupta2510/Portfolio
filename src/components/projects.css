@@ -33,6 +33,8 @@
 
 .type-react-native {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .page-heading {
