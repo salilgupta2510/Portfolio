@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5d6aa696.chunk.css",
+    "main.js": "/Portfolio/static/js/main.c50393d2.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.c50393d2.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.da229b30.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.da229b30.js.map",
+    "static/js/2.cbdcefb9.chunk.js": "/Portfolio/static/js/2.cbdcefb9.chunk.js",
+    "static/js/2.cbdcefb9.chunk.js.map": "/Portfolio/static/js/2.cbdcefb9.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.60d950ef8dd4900bba780a4a247fd528.js": "/Portfolio/precache-manifest.60d950ef8dd4900bba780a4a247fd528.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.5d6aa696.chunk.css.map": "/Portfolio/static/css/main.5d6aa696.chunk.css.map",
+    "static/js/2.cbdcefb9.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.cbdcefb9.chunk.js.LICENSE.txt",
+    "static/media/projects.css": "/Portfolio/static/media/Backgroud_image.ad43890c.jpg",
+    "static/media/Salil Gupta_19_03_2020.pdf": "/Portfolio/static/media/Salil Gupta_19_03_2020.3fb465c9.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da229b30.js",
+    "static/js/2.cbdcefb9.chunk.js",
+    "static/css/main.5d6aa696.chunk.css",
+    "static/js/main.c50393d2.chunk.js"
+  ]
+}
