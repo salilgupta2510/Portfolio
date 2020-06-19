@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import PDF from "../docs/Salil_Gupta_17012020.docx";
+import PDF from "../docs/Salil_Gupta_19062020.pdf";
 import "./projects.css";
 
 function Projects(props) {
