@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc30ef8debf06222545d696b7162fcc2",
+    "revision": "df5ddd0ebf8d747280bdbee7c32e5d9f",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "555ed59a12be7a67c310",
+    "revision": "f25c88ae6ee217e625e7",
     "url": "/Portfolio/static/css/main.5d6aa696.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.0135f8f7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "555ed59a12be7a67c310",
-    "url": "/Portfolio/static/js/main.b201372a.chunk.js"
+    "revision": "f25c88ae6ee217e625e7",
+    "url": "/Portfolio/static/js/main.c3761c16.chunk.js"
   },
   {
     "revision": "0b5df8bffa55d17f38f5",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Backgroud_image.ad43890c.jpg"
   },
   {
-    "revision": "5953af4b93459374b2a94d47144af367",
-    "url": "/Portfolio/static/media/Salil_Gupta_17012020.5953af4b.docx"
+    "revision": "12c7c3de5ad2a0f967a9d60c5a431ad9",
+    "url": "/Portfolio/static/media/Salil_Gupta_19062020.12c7c3de.pdf"
   }
 ]);
